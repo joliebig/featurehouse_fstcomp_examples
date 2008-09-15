@@ -5,6 +5,8 @@ public  interface  EdgeIfc {
 
 	 public Vertex getEnd( );
 
+	 public void display( );
+
 	 public void setWeight( int weight );
 
 	 public Vertex getOtherVertex( Vertex vertex );
@@ -14,12 +16,6 @@ public  interface  EdgeIfc {
 	public int getColor();
 
 	public void setColor(int color);
-
-	 public void display__wrappee__DFS( );
-
-	 public void display__wrappee__DFS( );
-
-	public void display() {System.out.print(" color=" + color);display__wrappee__DFS();}
 
 
 }

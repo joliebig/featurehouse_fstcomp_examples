@@ -1,23 +1,5 @@
-package GPL;
-
-class Main {
-    public static void main(String[] args) {
-	Graph g = new Graph();
-	// Vertex pre = null;
-	// for (int i = 0; i < 10; i++) {
-	// Vertex v = new Vertex();
-	// v.assignName("vertex " + i);
-	// g.addVertex(v);
-	// if (pre != null) {
-	// g.addEdge(pre, v);
-	// }
-	// pre = v;
-	// }
-
-	// g.run(g.getVertices().next());
-
-	
-	//TODO mod
+class EdgeColoringTest {
+    public static void main(String[] args) {	
 	Graph edgeColorTestGraph = new Graph();
 	Vertex v1 = new Vertex();
 	v1.name = "v1";
@@ -45,8 +27,7 @@ class Main {
 
 	edgeColorTestGraph.display();
 	edgeColorTestGraph.edgeColoring();	
-	edgeColorTestGraph.display();
-	//TODO /mod
+	edgeColorTestGraph.display();	
     }
 
 }

@@ -38,9 +38,7 @@ public   class  Vertex {
 
 	public void setDegree(int degree) {this.degree =	degree;}
 
-	 public void display__wrappee__DFS( ) { if ( visited ) System.out.print( "  visited" ); else System.out.println( " !visited " ); display__wrappee__UndirectedWithEdges( ); }
-
-	 public void display__wrappee__DFS( ) { if ( visited ) System.out.print( "  visited" ); else System.out.println( " !visited " ); display__wrappee__UndirectedWithEdges( ); }
+	 public void display__wrappee__EdgeGraph( ) { if ( visited ) System.out.print( "  visited" ); else System.out.println( " !visited " ); display__wrappee__UndirectedWithEdges( ); }
 
 	private int color;
 
@@ -48,11 +46,9 @@ public   class  Vertex {
 
 	public void setColor(int color) {this.color = color;}
 
-	public void display__wrappee__DFS() {System.out.print(" degree=" + degree);display__wrappee__DFS();}
+	public void display__wrappee__Degree() {System.out.print(" degree=" + degree);display__wrappee__EdgeGraph();}
 
-	public void display__wrappee__DFS() {System.out.print(" degree=" + degree);display__wrappee__DFS();}
-
-	public void display() {System.out.print(" color=" + color);display__wrappee__DFS();}
+	public void display() {System.out.print(" color=" + color);display__wrappee__Degree();}
 
 
 }
